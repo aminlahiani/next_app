@@ -21,6 +21,7 @@ function Layouts({ children , title}) {
       <header>
         <Link href="/"><a>home</a></Link>
         <Link href="/about"><a>about</a></Link>
+        <Link href="/posts"><a>posts</a></Link>
         <Link href="/contacts"><a>conatct</a></Link>
       </header>
 
