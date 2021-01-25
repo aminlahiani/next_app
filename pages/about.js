@@ -1,13 +1,11 @@
 import React from 'react'
 import Link from "next/link"
+import Layouts from '../components/Layouts'
 function about() {
     return (
-        <div>
-            <h1>About</h1>
-            <Link href="/">
-                <h3>home</h3>
-            </Link>
-        </div>
+        <Layouts title="About">
+         
+            </Layouts>
     )
 }
 
