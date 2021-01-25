@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
           />
-     <link rel="stylesheet"
+        <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Crimson+Pro"/>
 
        </Head>

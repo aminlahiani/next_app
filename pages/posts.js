@@ -1,4 +1,5 @@
 import Layouts from '../components/Layouts'
+import Link from "next/link"
 export default function Posts({posts}) {
     return (
         <Layouts title="About">
@@ -6,7 +7,8 @@ export default function Posts({posts}) {
 
              {posts.map((post) => (
                  <ul key={post.id}>
-        <li>{post.title}</li>
+
+        <li>  <Link href={`/post/${post.id}`}>{post.title}</Link></li>
         </ul>
       ))}
             </Layouts>

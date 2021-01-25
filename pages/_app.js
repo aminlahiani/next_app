@@ -4,7 +4,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <meta charSet="utf-8" />
+       <meta charSet="utf-8" />
           <meta name="robots" content="noindex, nofollow" />
           <meta name="viewport" content="width=device-width" />
           <meta
