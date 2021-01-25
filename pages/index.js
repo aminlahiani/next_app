@@ -1,10 +1,15 @@
 
+import Link from "next/link"
+import Layouts from "../components/Layouts"
 
 function index() {
     return (
-        <div>
+        <Layouts title="Home">
             simple_app
-        </div>
+            <Link href="/about">
+                <h3>about</h3>
+            </Link>
+            </Layouts>
     )
 }
 
