@@ -1,12 +1,14 @@
 import Layouts from "../components/Layouts";
 
-  function _error() {
+  function Error({statusCode}) {
     return (
         <Layouts title="Error!!!">
       
-        <h3>Couldn't get that page, sorry!!</h3>
+      {statusCode
+      ? `Could not load your user data: Status Code ${statusCode}`
+      : `Couldn't get that page, sorry!`}
        </Layouts>
     )
   }
   
-  export default _error
+  export default Error
